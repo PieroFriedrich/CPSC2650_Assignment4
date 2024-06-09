@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    margin-top: 0;
+    padding: 15px 0 15px 0;
+}
+
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    gap: 10px;
+}
+
+.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+form {
+    width: 250px;
+    background-color: darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#notes li {
+    background-color: lightblue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
